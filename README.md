@@ -1,5 +1,9 @@
 # Arduino-based Hand Gloves Piano
 
+![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+
 An Arduino-based digital piano that can be operated by wearing hand gloves. This project creates a small digital harmonium(piano) where touching each finger to the thumb produces a corresponding musical tone.
 
 ## Overview
@@ -89,7 +93,6 @@ The source code can be found in the `SourceCode.txt` file. Simply copy the code 
 
 ```
 Hand-Gloves-Piano/
-├── README.md                    # This file
 ├── SourceCode.txt               # Arduino source code
 ├── circuit_diagram.png          # Circuit diagram
 └── hands_gloves_piano_setup.jpg  # Hand gloves setup image
