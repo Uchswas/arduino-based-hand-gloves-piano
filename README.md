@@ -71,11 +71,10 @@ The aim of this project is to create an Arduino-based piano that can be operated
 1. Clone or download this repository
 2. Open the Arduino IDE
 3. Connect your Arduino Uno to your computer via USB
-4. Open the `SourceCode.txt` file and copy the code
-5. Paste it into a new Arduino sketch
-6. Select the correct board: **Tools → Board → Arduino Uno**
-7. Select the correct port: **Tools → Port → [Your Arduino Port]**
-8. Click **Upload** to program the Arduino
+4. Open the `HandGlovesPiano.ino` file in Arduino IDE
+5. Select the correct board: **Tools → Board → Arduino Uno**
+6. Select the correct port: **Tools → Port → [Your Arduino Port]**
+7. Click **Upload** to program the Arduino
 
 ## Usage
 
@@ -88,14 +87,14 @@ The aim of this project is to create an Arduino-based piano that can be operated
 
 ## Project Structure
 
-The source code can be found in the `SourceCode.txt` file. Simply copy the code into the Arduino IDE and upload it to your board.
-
+The source code can be found in the `HandGlovesPiano.ino` file. Simply open it in Arduino IDE and upload it to your board.
 
 ```
 Hand-Gloves-Piano/
-├── SourceCode.txt               # Arduino source code
+├── README.md                    # Project documentation
+├── HandGlovesPiano.ino         # Arduino source code (.ino file)
 ├── circuit_diagram.png          # Circuit diagram
-└── hands_gloves_piano_setup.jpg  # Hand gloves setup image
+└── hands_gloves_piano_setup.jpg # Hand gloves setup image
 ```
 
 
